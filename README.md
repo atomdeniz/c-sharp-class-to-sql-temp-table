@@ -2,7 +2,12 @@
 Create Sql Temp Table With C# Class Properties
 
 ## Usage
-
+### Create
 ```C#
-TempCreator<SampleClass>.SqlTempQuery("TempTableName")
+TempCreator<SampleClass>.CreateQuery("TempTableName")
 ```
+### Drop
+```C#
+TempCreator<SampleClass>.DropQuery("TempTableName")
+```
+ 
